@@ -33,7 +33,7 @@ class PostHolder(val binding: BooksRecyclerBinding) : RecyclerView.ViewHolder(bi
     init {
         binding.root.setOnClickListener {
             val intent = Intent(it.context, BookDetailActivity::class.java)
-            intent.putExtra("postId", post.itemId) // postid담고 PostDetailActivity
+            intent.putExtra("postId", post.isbn) // postid담고 PostDetailActivity
             it.context.startActivity(intent)
         }
     }
