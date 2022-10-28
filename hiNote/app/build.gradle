@@ -1,9 +1,18 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
+
+    // 파이어베이스 어덴트케이션 관련 플러그인 추가
+    id 'com.google.gms.google-services'
+
 }
 
 android {
+
+    buildFeatures {
+        viewBinding true
+    }
+
     compileSdk 32
 
     defaultConfig {
@@ -32,6 +41,12 @@ android {
 }
 
 dependencies {
+
+    // 파이어베이스 어덴트케이션 관련 디펜더시 추가
+    implementation platform('com.google.firebase:firebase-bom:31.0.1')
+    // Add the dependency for the Firebase Authentication library
+    // When using the BoM, you don't specify versions in Firebase library dependencies
+    implementation 'com.google.firebase:firebase-auth-ktx'
 
     implementation 'androidx.core:core-ktx:1.7.0'
     implementation 'androidx.appcompat:appcompat:1.5.1'
