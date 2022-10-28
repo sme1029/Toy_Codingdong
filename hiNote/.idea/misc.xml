@@ -1,5 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Lecture/ShareFolder/Toy_Codingdong/hiNote/app/src/main/res/layout/activity_diary.xml" value="0.33" />
+        <entry key="..\:/Lecture/ShareFolder/Toy_Codingdong/hiNote/app/src/main/res/layout/activity_diary_regist.xml" value="0.33" />
+        <entry key="..\:/Lecture/ShareFolder/Toy_Codingdong/hiNote/app/src/main/res/layout/activity_main.xml" value="0.13802083333333334" />
+        <entry key="..\:/Lecture/ShareFolder/Toy_Codingdong/hiNote/app/src/main/res/layout/diary_recycler.xml" value="0.25729166666666664" />
+        <entry key="..\:/Lecture/ShareFolder/Toy_Codingdong/hiNote/app/src/main/res/layout/diary_regist.xml" value="0.2051948051948052" />
+        <entry key="..\:/Lecture/ShareFolder/toy_codingdong/hinote/app/src/main/res/layout/activity_diary.xml" value="0.33" />
+        <entry key="..\:/Lecture/ShareFolder/toy_codingdong/hinote/app/src/main/res/layout/activity_diary_detail.xml" value="0.18854166666666666" />
+        <entry key="..\:/Lecture/ShareFolder/toy_codingdong/hinote/app/src/main/res/layout/activity_diary_regist.xml" value="0.22073578595317725" />
+        <entry key="..\:/Lecture/ShareFolder/toy_codingdong/hinote/app/src/main/res/layout/activity_diary_view.xml" value="0.22" />
+        <entry key="..\:/Lecture/ShareFolder/toy_codingdong/hinote/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Lecture/ShareFolder/toy_codingdong/hinote/app/src/main/res/layout/diary_recycler.xml" value="0.30520833333333336" />
+        <entry key="..\:/Lecture/ShareFolder/toy_codingdong/hinote/app/src/main/res/layout/fragment_diary.xml" value="0.30520833333333336" />
+        <entry key="..\:/Lecture/ShareFolder/toy_codingdong/hinote/app/src/main/res/layout/fragment_diary_regist.xml" value="0.18" />
+        <entry key="..\:/Lecture/ShareFolder/toy_codingdong/hinote/app/src/main/res/layout/fragment_test.xml" value="0.13425925925925927" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>

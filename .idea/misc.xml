@@ -1,4 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Lecture/ShareFolder/Toy_Codingdong/hiNote/app/src/main/res/layout/activity_diary.xml" value="0.25729166666666664" />
+        <entry key="..\:/Lecture/ShareFolder/Toy_Codingdong/hiNote/app/src/main/res/layout/activity_main.xml" value="0.23645833333333333" />
+        <entry key="..\:/Lecture/ShareFolder/Toy_Codingdong/hiNote/app/src/main/res/layout/diary_list.xml" value="0.33" />
+        <entry key="..\:/Lecture/ShareFolder/Toy_Codingdong/hiNote/app/src/main/res/layout/diary_recycler.xml" value="0.28633405639913234" />
+        <entry key="..\:/Lecture/ShareFolder/Toy_Codingdong/hiNote/app/src/main/res/layout/diary_regist.xml" value="0.25" />
+        <entry key="..\:/Lecture/ShareFolder/toy_codingdong/hinote/app/src/main/res/layout/activity_diary.xml" value="0.11458333333333333" />
+      </map>
+    </option>
+  </component>
   <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.22" />
+      </ProjectState>
+    </option>
+  </component>
 </project>
