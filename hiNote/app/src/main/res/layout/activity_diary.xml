@@ -14,17 +14,16 @@
             android:textColor="#F6E16E" android:textStyle="bold"
             android:textSize="34sp" app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toTopOf="@+id/recyclerView" app:layout_constraintVertical_bias="0.045"
-            app:layout_constraintHorizontal_bias="0.34"/>
+            app:layout_constraintBottom_toTopOf="@+id/recyclerView" app:layout_constraintVertical_bias="0.056"
+    />
     <Button
-            android:text="등록"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" android:id="@+id/registButton3"
+            android:layout_width="54dp"
+            android:layout_height="47dp" android:id="@+id/registButton3"
             android:textStyle="bold" android:textSize="20sp"
             tools:ignore="MissingConstraints" app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toTopOf="@+id/recyclerView" app:layout_constraintHorizontal_bias="0.699"
-            app:layout_constraintVertical_bias="0.011"/>
+            app:layout_constraintBottom_toTopOf="@+id/recyclerView" app:layout_constraintHorizontal_bias="0.955"
+            app:layout_constraintVertical_bias="0.058" app:icon="@android:drawable/ic_menu_edit"/>
     <androidx.recyclerview.widget.RecyclerView
             android:layout_width="413dp"
             android:layout_height="616dp" tools:layout_editor_absoluteY="133dp"

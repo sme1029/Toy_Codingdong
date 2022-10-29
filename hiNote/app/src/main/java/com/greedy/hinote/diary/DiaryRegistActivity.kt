@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.greedy.hinote.databinding.ActivityDiaryRegistBinding
+import com.greedy.hinote.weather.WeatherActivity
 
 class DiaryRegistActivity : AppCompatActivity() {
 
@@ -13,6 +14,7 @@ class DiaryRegistActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
         val adapter = DiaryAdapter()
+
         binding.saveButton.setOnClickListener {
 
             if(binding.diaryContent.text.toString().isNotEmpty()){
@@ -26,6 +28,10 @@ class DiaryRegistActivity : AppCompatActivity() {
             }
 
             startActivity(Intent(this, DiaryActivity::class.java))
+        }
+
+        binding.btnWeather.setOnClickListener {
+            startActivity(Intent(this, WeatherActivity::class.java))
         }
     }
 }

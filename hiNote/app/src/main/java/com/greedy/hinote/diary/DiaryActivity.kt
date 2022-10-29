@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.greedy.hinote.databinding.ActivityDiaryBinding
+import com.greedy.hinote.weather.WeatherActivity
 
 class DiaryActivity : AppCompatActivity() {
 
