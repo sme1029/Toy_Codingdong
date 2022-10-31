@@ -19,6 +19,17 @@ class MainActivity : AppCompatActivity() {
 
         auth = Firebase.auth
 
+        // 전체 합치고 나면 주석 풀을 예정.
+//        /* 다이어리 이동 */
+//        binding.diary.setOnClickListener {
+//            startActivity(Intent(this, DiaryActivity::class.java))
+//        }
+//
+//        /* 도서리뷰 이동 */
+//        binding.book.setOnClickListener {
+//            startActivity(Intent(this, BookActivity::class.java))
+//        }
+
         binding.currentUser.text = "${auth.currentUser?.email}"
 
         binding.btnLogout.setOnClickListener {
