@@ -14,36 +14,42 @@ class BookDetailActivity : AppCompatActivity(){
 
     private val binding by lazy { ActivityBookDetailBinding.inflate(layoutInflater) }
     //private lateinit var adapter: CommentsAdapter
-    private lateinit var post: Book
+    private  var post: Book? = null
    // private lateinit var comments: Comments
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
 
-        val postId = intent.getIntExtra("postId", 0)
-        loadData(postId) // intent안에 담았던 postId를 담아서 화면에 필요한 데이터 load
+        val title = intent.getStringExtra("title")
+        val description = intent.getStringExtra("description")
+        val coverLargeUrl = intent.getStringExtra("coverLargeUrl")
+
+        binding.title.text = title
+        binding.description.text = description
+
+        Glide.with(binding.coverImageView.context)
+            .load(coverLargeUrl.orEmpty())
+            .into(binding.coverImageView)
 
     }
 
-    private fun loadData(postId: Int) {
+    private fun loadData(title: Int, ) {
 
-        CoroutineScope(Dispatchers.Main).launch {
-            /* 통신 부분 */
-            withContext(Dispatchers.IO) {
-                val postResponse = BooksService.getPostsService().post(postId)
-               //val commentsResponse = BooksService.getPostsService().comments(postId)
-                if (postResponse.isSuccessful) {
-                    post = postResponse.body()!!
-                    //comments = commentsResponse.body()!!
-                } else {
-                    Log.d("Error", "${postResponse.message()}")
-                    //Log.d("Error", "${commentsResponse.message()}")
-                }
-            }
+//        CoroutineScope(Dispatchers.Main).launch {
+//            /* 통신 부분 */
+//            withContext(Dispatchers.IO) {
+//                val postResponse = BooksService.getPostsService().post(isbn)
+//                if (postResponse.isSuccessful) {
+//                    post = postResponse.body()!!
+//                } else {
+//                    Log.d("Error", "${postResponse.message()}")
+//                    //Log.d("Error", "${commentsResponse.message()}")
+//                }
+//            }
             /* 화면 처리 부분 */
-            binding.title.text = post.title
-            binding.description.text = post.description
+            binding.title.text = post?.title
+            binding.description.text = post?.description
 
 //           binding.content.text = post.body
 //           binding.commentCount.text = "comments(${comments.total})"
@@ -63,4 +69,6 @@ class BookDetailActivity : AppCompatActivity(){
         }
 
     }
-}
+
+
+

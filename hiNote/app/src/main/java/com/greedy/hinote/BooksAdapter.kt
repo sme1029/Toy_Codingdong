@@ -33,13 +33,16 @@ class PostHolder(val binding: BooksRecyclerBinding) : RecyclerView.ViewHolder(bi
     init {
         binding.root.setOnClickListener {
             val intent = Intent(it.context, BookDetailActivity::class.java)
-            intent.putExtra("postId", post.isbn) // postid담고 PostDetailActivity
+            intent.putExtra("title", post.title) // title 담아 PostDetailActivity로
+            intent.putExtra("description", post.description)
+            intent.putExtra("coverLargeUrl", post.coverLargeUrl)
             it.context.startActivity(intent)
         }
     }
 
     /* 태그들을 뿌린거 화면에 입력 */
     fun setItem(post: Book?) {
+
         binding.title.text = "${post?.title}"
         binding.description.text = "${post?.description}"
 
@@ -52,3 +55,4 @@ class PostHolder(val binding: BooksRecyclerBinding) : RecyclerView.ViewHolder(bi
         this.post = post!!
     }
 }
+

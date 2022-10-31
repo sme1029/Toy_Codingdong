@@ -19,7 +19,7 @@
                 android:name=".BookDetailActivity"
                 android:exported="false"/>
         <activity
-                android:name=".MainActivity"
+                android:name=".BookActivity"
                 android:exported="true">
 
             <intent-filter>
