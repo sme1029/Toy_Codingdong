@@ -1,5 +1,7 @@
 package com.greedy.hinote.weather
 
+import java.util.SimpleTimeZone
+
 class ModelWeather {
     var rainType =""
     var humidity =""

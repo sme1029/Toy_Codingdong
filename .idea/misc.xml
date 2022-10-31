@@ -8,7 +8,12 @@
         <entry key="..\:/Lecture/ShareFolder/Toy_Codingdong/hiNote/app/src/main/res/layout/diary_list.xml" value="0.33" />
         <entry key="..\:/Lecture/ShareFolder/Toy_Codingdong/hiNote/app/src/main/res/layout/diary_recycler.xml" value="0.28633405639913234" />
         <entry key="..\:/Lecture/ShareFolder/Toy_Codingdong/hiNote/app/src/main/res/layout/diary_regist.xml" value="0.25" />
-        <entry key="..\:/Lecture/ShareFolder/toy_codingdong/hinote/app/src/main/res/layout/activity_diary.xml" value="0.11458333333333333" />
+        <entry key="..\:/Lecture/ShareFolder/toy_codingdong/hinote/app/src/main/res/layout/activity_diary.xml" value="0.25" />
+        <entry key="..\:/Lecture/ShareFolder/toy_codingdong/hinote/app/src/main/res/layout/activity_diary_detail.xml" value="0.3" />
+        <entry key="..\:/Lecture/ShareFolder/toy_codingdong/hinote/app/src/main/res/layout/activity_diary_regist.xml" value="0.3" />
+        <entry key="..\:/Lecture/ShareFolder/toy_codingdong/hinote/app/src/main/res/layout/activity_main.xml" value="0.3" />
+        <entry key="..\:/Lecture/ShareFolder/toy_codingdong/hinote/app/src/main/res/layout/diary_recycler.xml" value="0.3" />
+        <entry key="..\:/Lecture/ShareFolder/toy_codingdong/hinote/app/src/main/res/layout/list_item_weather.xml" value="0.3" />
       </map>
     </option>
   </component>

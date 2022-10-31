@@ -1,4 +1,4 @@
-package com.greedy.hinote.diary
+/*package com.greedy.hinote.diary
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -30,4 +30,4 @@ class DiaryUpdateActivity : AppCompatActivity() {
             startActivity(Intent(this, DiaryActivity::class.java))
         }
     }
-}
+}*/

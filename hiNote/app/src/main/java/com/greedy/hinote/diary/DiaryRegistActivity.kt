@@ -30,8 +30,5 @@ class DiaryRegistActivity : AppCompatActivity() {
             startActivity(Intent(this, DiaryActivity::class.java))
         }
 
-        binding.btnWeather.setOnClickListener {
-            startActivity(Intent(this, WeatherActivity::class.java))
-        }
     }
 }

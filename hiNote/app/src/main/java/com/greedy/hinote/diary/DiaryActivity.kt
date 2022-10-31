@@ -22,8 +22,12 @@ class DiaryActivity : AppCompatActivity() {
         binding.recyclerView.adapter = adapter
         binding.recyclerView.layoutManager = LinearLayoutManager(this)
 
-        binding.registButton3.setOnClickListener {
+        binding.registButton.setOnClickListener {
             startActivity(Intent(this, DiaryRegistActivity::class.java))
+        }
+
+        binding.btnWeather.setOnClickListener {
+            startActivity(Intent(this, WeatherActivity::class.java))
         }
 
     }

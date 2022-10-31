@@ -7,25 +7,31 @@
         android:layout_height="match_parent"
         tools:context=".diary.DiaryActivity">
 
+    <ImageButton
+            android:layout_width="58dp"
+            android:layout_height="59dp" app:srcCompat="@drawable/img7" android:id="@+id/registButton"
+            android:backgroundTint="#FFFFFF" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.954"
+            app:layout_constraintTop_toTopOf="parent"/>
+    <ImageButton
+            android:layout_width="69dp"
+            android:layout_height="54dp" app:srcCompat="@drawable/img6" android:id="@+id/btnWeather"
+            tools:layout_editor_absoluteY="0dp" android:background="#FFFFFF"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"/>
     <TextView
             android:text="DIARY"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:id="@+id/textView2"
             android:textColor="#F6E16E" android:textStyle="bold"
             android:textSize="34sp" app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toTopOf="@+id/recyclerView" app:layout_constraintVertical_bias="0.056"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
     />
-    <Button
-            android:layout_width="54dp"
-            android:layout_height="47dp" android:id="@+id/registButton3"
-            android:textStyle="bold" android:textSize="20sp"
-            tools:ignore="MissingConstraints" app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toTopOf="@+id/recyclerView" app:layout_constraintHorizontal_bias="0.955"
-            app:layout_constraintVertical_bias="0.058" app:icon="@android:drawable/ic_menu_edit"/>
+
     <androidx.recyclerview.widget.RecyclerView
-            android:layout_width="413dp"
-            android:layout_height="616dp" tools:layout_editor_absoluteY="133dp"
-            tools:layout_editor_absoluteX="0dp" android:id="@+id/recyclerView" tools:ignore="MissingConstraints"/>
+            android:layout_width="411dp"
+            android:layout_height="653dp"
+            tools:layout_editor_absoluteX="0dp" android:id="@+id/recyclerView" tools:ignore="MissingConstraints"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" android:layout_marginTop="28dp"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
