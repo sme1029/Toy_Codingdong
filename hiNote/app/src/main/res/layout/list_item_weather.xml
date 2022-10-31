@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+
+    <TextView
+            android:id="@+id/tvTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="00시 날씨"
+            android:textColor="#7A7777"
+            android:textSize="24dp"
+            android:layout_marginBottom="10dp"/>
+
+    <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFCEF">
+
+        <TableRow android:layout_height="wrap_content" android:layout_width="105dp">
+            <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/img1"
+                    android:layout_marginTop="10dp"
+                    />
+            <TextView
+                    android:id="@+id/tvSky"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text=""
+                    android:textSize="20dp"/>
+        </TableRow>
+        <TableRow>
+            <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/img3"
+                    android:layout_marginTop="10dp"/>
+            <TextView
+                    android:id="@+id/tvTemp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text=""
+                    android:textSize="20dp"/>
+        </TableRow>
+        <TableRow>
+            <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/img4"
+                    android:layout_marginTop="10dp"/>
+            <TextView
+                    android:id="@+id/tvHumidity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text=""
+                    android:textSize="20dp"/>
+        </TableRow>
+        <TableRow>
+            <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/img2"
+                    android:layout_marginTop="10dp"/>
+            <TextView
+                    android:id="@+id/tvRainType"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text=""
+                    android:textSize="20dp"/>
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
