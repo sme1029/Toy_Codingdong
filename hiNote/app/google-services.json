@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "552336649399",
+    "project_id": "hinote-3b36d",
+    "storage_bucket": "hinote-3b36d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:552336649399:android:fb4ee7c8a49d33be3a3132",
+        "android_client_info": {
+          "package_name": "com.greedy.hinote"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "552336649399-osvdguvgtg5vvlh22s88pe81o0if69d4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUZin9C0GP-Jn39Y0xS2rxCY8eHUstFfQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "552336649399-osvdguvgtg5vvlh22s88pe81o0if69d4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
