@@ -27,10 +27,10 @@ class MainActivity : AppCompatActivity() {
 //            startActivity(Intent(this, DiaryActivity::class.java))
 //        }
 //
-//        /* 도서리뷰 이동 */
-//        binding.book.setOnClickListener {
-//            startActivity(Intent(this, BookActivity::class.java))
-//        }
+        /* 도서리뷰 이동 */
+        binding.book.setOnClickListener {
+            startActivity(Intent(this, BookActivity::class.java))
+        }
 
         binding.currentUser.text = "${auth.currentUser?.email}"
 
