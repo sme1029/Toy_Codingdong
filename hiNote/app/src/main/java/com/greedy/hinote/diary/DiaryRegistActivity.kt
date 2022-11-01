@@ -4,7 +4,6 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.greedy.hinote.databinding.ActivityDiaryRegistBinding
-import com.greedy.hinote.weather.WeatherActivity
 
 class DiaryRegistActivity : AppCompatActivity() {
 

@@ -7,6 +7,7 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 import com.greedy.hinote.databinding.ActivityJoinBinding
+import org.intellij.lang.annotations.Pattern
 
 class JoinActivity : AppCompatActivity() {
 
@@ -31,6 +32,7 @@ class JoinActivity : AppCompatActivity() {
             }else{
                 Toast.makeText(this, "이메일과 비밀번호를 전부 입력하세요.", Toast.LENGTH_SHORT).show()
             }
+
         }
 
         /* 메인 액티비티 이동 */

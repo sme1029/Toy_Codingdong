@@ -1,11 +1,13 @@
 package com.greedy.hinote
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.greedy.hinote.databinding.ActivityBookBinding
+import com.greedy.hinote.diary.DiaryActivity
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -29,6 +31,10 @@ class BookActivity : AppCompatActivity() {
         loadData()
         initScrollListener()
 
+        /* 홈 이동 */
+        binding.home.setOnClickListener {
+            startActivity(Intent(this, MainActivity::class.java))
+        }
 
     }
 

@@ -1,6 +1,7 @@
 package com.greedy.hinote
 
 import android.content.Intent
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
@@ -36,6 +37,9 @@ class PostHolder(val binding: BooksRecyclerBinding) : RecyclerView.ViewHolder(bi
             intent.putExtra("title", post.title) // title 담아 PostDetailActivity로
             intent.putExtra("description", post.description)
             intent.putExtra("coverLargeUrl", post.coverLargeUrl)
+            intent.putExtra("isbn", post.isbn)
+            Log.d("isbnapter",post.isbn!!)
+
             it.context.startActivity(intent)
         }
     }
@@ -55,4 +59,3 @@ class PostHolder(val binding: BooksRecyclerBinding) : RecyclerView.ViewHolder(bi
         this.post = post!!
     }
 }
-
