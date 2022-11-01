@@ -4,6 +4,8 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.greedy.hinote.BookActivity
+import com.greedy.hinote.MainActivity
 import com.greedy.hinote.databinding.ActivityDiaryBinding
 import com.greedy.hinote.weather.WeatherActivity
 
@@ -15,6 +17,11 @@ class DiaryActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
+
+        /* 홈 이동 */
+        binding.home.setOnClickListener {
+            startActivity(Intent(this, MainActivity::class.java))
+        }
 
         val adapter = DiaryAdapter()
         adapter.listData.addAll(helper.selectDiary())

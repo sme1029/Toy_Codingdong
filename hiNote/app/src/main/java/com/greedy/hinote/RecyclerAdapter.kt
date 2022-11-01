@@ -36,7 +36,7 @@ class RecyclerAdapter : RecyclerView.Adapter<RecyclerAdapter.Holder> () {
         fun setMemo(memo: Memo) {
             binding.textNo.text = "${memo.no}"
             binding.textContent.text = memo.content
-            val sdf = SimpleDateFormat("yyyy/MM/dd hh:mm")
+            val sdf = SimpleDateFormat("yyyy/MM/dd")
             binding.textDatetime.text = sdf.format(memo.datetime)
 
             mMemo = memo

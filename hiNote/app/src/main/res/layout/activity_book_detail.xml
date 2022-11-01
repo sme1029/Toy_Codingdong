@@ -62,7 +62,7 @@
                     android:layout_height="50dp"
                     android:inputType="textMultiLine"
                     android:gravity="start|top"
-                    android:hint="메모를 입력하세요"
+                    android:hint="후기를 입력하세요"
                     app:layout_constraintBottom_toTopOf="@id/saveButton"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"

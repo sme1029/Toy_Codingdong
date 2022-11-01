@@ -20,13 +20,17 @@
         <entry key="..\:/Lecture/ShareFolder/toy_codingdong/hinote/app/src/main/res/layout/fragment_diary_regist.xml" value="0.18" />
         <entry key="..\:/Lecture/ShareFolder/toy_codingdong/hinote/app/src/main/res/layout/fragment_test.xml" value="0.13425925925925927" />
         <entry key="..\:/Lecture/ShareFolder/toy_codingdong/hinote/app/src/main/res/layout/list_item_weather.xml" value="0.33" />
-
-        <entry key="..\:/Users/SEC/ShareFolder/android/workspace/Codingdong/hiNote/app/src/main/res/layout/activity_book.xml" value="0.22447916666666667" />
-  
+        <entry key="..\:/Users/SEC/ShareFolder/android/workspace/Codingdong/hiNote/app/src/main/res/layout/activity_book.xml" value="0.264" />
+        <entry key="..\:/Users/SEC/ShareFolder/android/workspace/Codingdong/hiNote/app/src/main/res/layout/activity_book_detail.xml" value="0.12407407407407407" />
+        <entry key="..\:/Users/SEC/ShareFolder/android/workspace/Codingdong/hiNote/app/src/main/res/layout/activity_diary.xml" value="0.264" />
+        <entry key="..\:/Users/SEC/ShareFolder/android/workspace/Codingdong/hiNote/app/src/main/res/layout/activity_diary_regist.xml" value="0.264" />
         <entry key="..\:/Users/SEC/ShareFolder/android/workspace/Codingdong/hiNote/app/src/main/res/layout/activity_join.xml" value="0.264" />
         <entry key="..\:/Users/SEC/ShareFolder/android/workspace/Codingdong/hiNote/app/src/main/res/layout/activity_log.xml" value="0.264" />
         <entry key="..\:/Users/SEC/ShareFolder/android/workspace/Codingdong/hiNote/app/src/main/res/layout/activity_main.xml" value="0.264" />
-
+        <entry key="..\:/Users/SEC/ShareFolder/android/workspace/Codingdong/hiNote/app/src/main/res/layout/activity_weather.xml" value="0.1" />
+        <entry key="..\:/Users/SEC/ShareFolder/android/workspace/Codingdong/hiNote/app/src/main/res/layout/books_recycler.xml" value="0.2390625" />
+        <entry key="..\:/Users/SEC/ShareFolder/android/workspace/Codingdong/hiNote/app/src/main/res/layout/comment_recycler.xml" value="0.72" />
+        <entry key="..\:/Users/SEC/ShareFolder/android/workspace/Codingdong/hiNote/app/src/main/res/layout/diary_recycler.xml" value="0.1" />
       </map>
     </option>
   </component>

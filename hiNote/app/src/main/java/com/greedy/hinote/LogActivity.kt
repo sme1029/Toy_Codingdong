@@ -38,7 +38,7 @@ class LogActivity : AppCompatActivity() {
             }else{
                 Toast.makeText(this, "이메일과 비밀번호를 전부 입력하세요.", Toast.LENGTH_SHORT).show()
             }
-
+            
         }
     }
 
